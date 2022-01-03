@@ -1,1 +1,1 @@
-# rsschool-cv
+git push origin gh-pages
