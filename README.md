@@ -1,1 +1,1 @@
-git push origin gh-pages
+https://asbitinkov.github.io/rsschool-cv/cv
