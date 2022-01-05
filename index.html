@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Цвет фона</title>
+  <style>
+   body {
+    background: gray; /* Цвет фона */
+    color: #fc0; /* Цвет текста */
+   }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anton Sbitinkovr</title>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/an-old-hope.min.css">
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</head>
+<body id="body">
+  <div class="wrapper">
+    <header class="page-header">
+      <div class="page-header__inner">
+        <button class="theme-toggle" id="toggle" aria-label="Activate light mode" title="Activate light mode"  type="button">
+            <circle id="moon" cx="12.5" cy="12.5" r="12.5" fill="#F8F0E4" mask="url(#moonClip)" />
+            <g fill-rule="evenodd">
+              <circle id="sun" cx="12.5" cy="12.5" r="7" fill="#E12179" />
+              <circle id="beam1" cx="12.5" cy="23" r="2" fill="#E12179" />
+              <circle id="beam2" cx="3.5" cy="18" r="2" fill="#E12179" />
+              <circle id="beam3" cx="3.5" cy="7" r="2" fill="#E12179" />
+              <circle id="beam4" cx="12.5" cy="2" r="2" fill="#E12179" />
+              <circle id="beam5" cx="22.5" cy="7" r="2" fill="#E12179" />
+              <circle id="beam6" cx="21.5" cy="18" r="2" fill="#E12179" />
+            </g>
+          </svg>
+        </button>
+        <div class="page-header__burger" title="Open menu">
+          <span></span>
+        </div>
+        <nav class="page-header-nav">
+          <ul class="site-navigation">
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#skills">Skills</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#code">Code Style</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-wrapper">
+        <section class="about-me container">
+          <div class="about-me__img-container">
+            <img class="about-me__img" src="./assets/img/image2.jpg" alt="my foto>
+          </div>
+          <div class="about-me__description">
+            <p class="description__item">I have no experience in it.</p>
+            <p class="description__item">I want to become a specialist in this area and develop.</p>
+          </div>
+          <h2 id="skills" class="title">
+            Skills
+          </h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS </li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">Git</li>
+          </ul>
+        <section class="code-examples container">
+            <h2 id="skills" class="title">
+                Contacts
+              </h2>
+              <ul class="contact__list">
+                <li class="contact__item">tel: 89521236128</li>
+                <li class="contact__item">asbitinkov@gmail.com </li>
+              </ul>
+          <h2 id="code" class="title">Code examples</h2>
+            <pre>
+              <code class="language-javascript">
+                def get_vowels(String):
+                return [each for each in String if each in "aeiou"]
+            get_vowels("animal") # [a, i, a]
+            get_vowels("sky") # []
+            get_vowels("football") # [o, o, a]
+    </footer>
+  </div>
+  <script src="script.js"></script>
+  <script src="toggle.js"></script>
+  <script src="selfeval.js"></script>
+</body>
+</html>
