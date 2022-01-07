@@ -1,1 +1,2 @@
-https://github.com/asbitinkov/rsschool-cv/tree/gh-pages
+https://asbitinkov.github.io/rsschool-cv/cv
+https://asbitinkov.github.io/rsschool-cv/
