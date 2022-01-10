@@ -1,1 +1,2 @@
-https://github.com/asbitinkov/rsschool-cv/blob/gh-pages/cv.md
+https://asbitinkov.github.io/rsschool-cv/cv
+https://asbitinkov.github.io/rsschool-cv/
